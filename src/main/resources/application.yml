@@ -5,14 +5,14 @@ spring:
     password: secret
   jpa:
     hibernate:
-      ddl-auto: update   # solo para desarrollo
+      ddl-auto: update
     show-sql: true
     properties:
       hibernate:
         format_sql: true
   sql:
     init:
-      mode: always       # si quieres scripts de inicio
+      mode: always
 
 server:
   port: 8080
